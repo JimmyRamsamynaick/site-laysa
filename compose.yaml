@@ -1,0 +1,7 @@
+services:
+  site-laysa:
+    build: .
+    container_name: site-laysa
+    restart: always
+    ports:
+      - "3040:80"
